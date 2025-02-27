@@ -2,8 +2,11 @@
   "name": "buny",
   "module": "src/index.ts",
   "main": "src/cli.ts",
+  "bin": {
+    "buny": "src/cli.ts"
+  },
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "repository": "https://github.com/hex2f/buny",
   "license": "MIT",
   "author": "Leah Lundqvist <leah@pigeon.sh>",
@@ -12,7 +15,8 @@
     "@types/json-to-pretty-yaml": "^1.2.1"
   },
   "scripts": {
-    "start": "bun run src/cli.ts"
+    "start": "bun run src/cli.ts",
+    "buny": "bun run src/cli.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

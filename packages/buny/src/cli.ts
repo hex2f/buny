@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import { parseArgs } from "util";
 import { version } from "../package.json";
 import { renderFile } from "./renderFile";
