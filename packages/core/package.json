@@ -3,6 +3,9 @@
   "module": "src/index.ts",
   "type": "module",
   "version": "0.1.0",
+  "repository": "https://github.com/hex2f/buny",
+  "license": "MIT",
+  "author": "Leah Lundqvist <leah@pigeon.sh>",
   "devDependencies": {
     "@types/bun": "latest"
   },

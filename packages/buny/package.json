@@ -4,6 +4,9 @@
   "main": "src/cli.ts",
   "type": "module",
   "version": "0.0.5",
+  "repository": "https://github.com/hex2f/buny",
+  "license": "MIT",
+  "author": "Leah Lundqvist <leah@pigeon.sh>",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/json-to-pretty-yaml": "^1.2.1"
