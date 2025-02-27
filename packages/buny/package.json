@@ -1,0 +1,21 @@
+{
+  "name": "buny",
+  "module": "src/index.ts",
+  "main": "src/cli.ts",
+  "type": "module",
+  "version": "0.0.5",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/json-to-pretty-yaml": "^1.2.1"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@x2f/buny-core": "^0.1.0",
+    "json-to-pretty-yaml": "^1.2.2"
+  }
+}

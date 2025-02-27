@@ -1,0 +1,7 @@
+{
+  "name": "buny-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
